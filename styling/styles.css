@@ -11,7 +11,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
   height: min-content;
+  position: fixed;
   background-color: #1f2937;
 }
 
@@ -45,15 +47,21 @@
  }
 
 
+#link-button {
+    background-color: aqua;
+    color: black;
+}
+
+
  .s-button {
-     color: black;
      border: 1px solid lightgray;
      background-color: aqua;
+     color: black;
      border-radius: 5px;
  }
 
 
- .s-button:hover {
+ .s-button:hover, #link-button {
      background-color: black;
      color: aqua;
  }
@@ -67,11 +75,9 @@
 
 #welcome {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  width: 50%;
-  margin: auto;
-  height: 80vh;
+  height: 100vh;
   background-color: #1f2937;
   color: white;
 }
@@ -89,6 +95,8 @@
 
 
 #welcome.welcome-img, article {
+  width: 300px;
+  height: 300px;
   flex-grow: 1;
   margin-left: 9px;    
 }
@@ -155,7 +163,7 @@ h3 {
 
 
 article {
-    width: 500px;
+    width: 600px;
     margin: auto;
 }
 
@@ -185,7 +193,18 @@ button {
     background-color: #3882F6;
     border: 1px solid aliceblue;
     border-radius: 7px;
+    color: #E5E7EB;
 }
 
 
 /*End of styling for the sign-up */
+
+/*styling for the footer*/
+
+footer {
+    text-align: center;
+    background-color: #1f2937;
+}
+
+
+/*End of styling for the footer*/
