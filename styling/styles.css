@@ -109,3 +109,25 @@
 
 
 /*End of the stlying for the welcome section*/
+
+
+/*Styling fot the Photo Gallery*/
+
+
+#photo-gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 15px;
+    height: 50vh;
+}
+
+
+#photo-gallery img {
+    width: 250px;
+    height: 250px;
+}
+
+
+
+/*End of the styling for the photo gallery*/
