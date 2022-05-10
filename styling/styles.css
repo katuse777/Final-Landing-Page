@@ -12,7 +12,6 @@
   align-items: center;
   height: min-content;
   background-color: #1f2937;
-
 }
 
 
@@ -33,6 +32,7 @@
 }
 
  #navbar #links a {
+     font-size: 18px;
      text-decoration: none;
      color: white;
  }
@@ -45,6 +45,7 @@
 
 
  .s-button {
+     color: black;
      border: 1px solid lightgray;
      background-color: aqua;
      border-radius: 5px;
@@ -58,3 +59,53 @@
  
  
 /* End of styling for the header*/ 
+
+
+/*Styling for the Welcome section*/
+
+
+#welcome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin: auto;
+  height: 80vh;
+  background-color: #1f2937;
+  color: white;
+}
+
+
+.extra-bold {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+
+#welcome article { 
+  font-size: 18px;
+}
+
+
+#welcome.welcome-img, article {
+  flex-grow: 1;
+  margin-left: 9px;    
+}
+
+
+#welcome a {
+  text-decoration: none;
+  color: black;
+  background-color: aqua;
+  border: 1 solid lightgrey;
+  border-radius: 5px;
+}
+
+
+#welcome a:hover {
+    color: aqua;
+    background-color: black;
+}
+
+
+/*End of the stlying for the welcome section*/
