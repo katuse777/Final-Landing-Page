@@ -114,6 +114,13 @@
 /*Styling fot the Photo Gallery*/
 
 
+h3 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
 #photo-gallery {
     display: flex;
     justify-content: center;
@@ -131,3 +138,24 @@
 
 
 /*End of the styling for the photo gallery*/
+
+
+/*Styling for the inspirational qoute*/
+
+
+#inspire {
+    height: min-content;
+    background-color: #E5E7EB;
+    font-size: 38px;
+    font-style: italic;
+    color: #1F2937;
+    padding: 30px;
+}
+
+
+article {
+    width: 500px;
+    margin: auto;
+}
+
+/*End of the styling for the inspirational qoute*/
